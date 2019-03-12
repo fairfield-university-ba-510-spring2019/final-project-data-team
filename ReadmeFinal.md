@@ -65,13 +65,13 @@ the instructor of the course, the crn and term of the course, and the start and 
 
 We populated these tables from the overarching tables we first created from the .csv files.
 
-[I'm a relative reference to a repository file](../ba510/final-project-data-team/CourseDataETL.ipynb)
+[CourseDataETL](../CourseDataETL.ipynb)
 
 ## Step 5
 
 In order to test the domain, entity and relational integrity of the database we created and ran a variety of SQL queries to see if it held up.
 
-[I'm a relative reference to a repository file](../ba510/final-project-data-team/CourseDataTests.ipynb)
+[CourseDataTests](../CourseDataTests.ipynb)
 
 ## Step 6
 
@@ -87,10 +87,10 @@ In order to connect to the data warehouse we imported the necessary connection s
 Based on our ERD, we created tables and populated them from the information contained in the tables in our CourseData.db.
 Our facts table contained four foreign keys connecting to our four dimension tables.
 
-[I'm a relative reference to a repository file](../ba510/final-project-data-team/CourseDataWarehouseDemo.ipynb)
+[CourseDataWarehouseDemo](../CourseDataWarehouseDemo.ipynb)
 
 ## Step 9
 
 In order to test the domain, entity and relational integrity of the data warehouse we created and ran a variety of SQL queries to see if it held up.
 
-[I'm a relative reference to a repository file](../ba510/final-project-data-team/CourseDataWarehouseTest.ipynb)
+[CourseDataWarehouseTest](../CourseDataWarehouseTest.ipynb)
